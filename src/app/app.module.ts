@@ -10,9 +10,10 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './auth/login/login.component';
 
 @NgModule({
-  declarations: [AppComponent, SignupComponent, NavComponent],
+  declarations: [AppComponent, SignupComponent, NavComponent, LoginComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

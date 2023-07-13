@@ -10,4 +10,8 @@ export class AuthService {
   signUp(form) {
     return this.http.post('http://localhost:3000/api/v1/users/create', form);
   }
+
+  login(form) {
+    return this.http.post('http://localhost:3000/api/v1/users/login', form);
+  }
 }
